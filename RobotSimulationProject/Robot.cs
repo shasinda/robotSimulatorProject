@@ -6,7 +6,12 @@ namespace RobotSimulationProject
 	{
 		public Robot ()
 		{
+			finalError = "";
 		}
+
+
+		public string finalError { get; set;}
+
 	}
 }
 
