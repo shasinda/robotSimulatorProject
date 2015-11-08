@@ -108,8 +108,6 @@ namespace RobotSimulationProject.Tests
 		[Test ()]
 		public void robotShouldMoveAndTurnAndReportItsPosition()
 		{
-		
-
 			var robot = new Robot ();
 			robot.PlaceRobot (1, 1, DirectionFacing.East);
 			robot.Move ();

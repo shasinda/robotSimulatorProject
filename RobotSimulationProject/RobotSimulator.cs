@@ -24,7 +24,7 @@ namespace RobotSimulationProject
 				var placeArgs = (InstructionDTO)args;
 				if (Robot.PlaceRobot(placeArgs.xPosition, placeArgs.yPosition, placeArgs.dFacing))
 				{
-					response = "Done.";
+					response = "Success.";
 				}
 				else
 				{
@@ -34,7 +34,7 @@ namespace RobotSimulationProject
 			case RobotInstruction.Move:
 				if (Robot.Move())
 				{
-					response = "Done.";
+					response = "Success.";
 				}
 				else
 				{
@@ -44,7 +44,7 @@ namespace RobotSimulationProject
 			case RobotInstruction.Left:
 				if (Robot.TurnLeft())
 				{
-					response = "Done.";
+					response = "Success.";
 				}
 				else
 				{
@@ -54,7 +54,7 @@ namespace RobotSimulationProject
 			case RobotInstruction.Right:
 				if (Robot.TurnRight())
 				{
-					response = "Done.";
+					response = "Success.";
 				}
 				else
 				{
